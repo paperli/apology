@@ -2,7 +2,7 @@
 
 ## Overview
 
-The ASCII Apology Modulator helps assistants produce more empathetic apologies by
+Bust Apologizer helps assistants produce more empathetic apologies by
 including a visual severity indicator in the response. The meter grows as the
 severity of a complaint increases or as similar complaints accumulate during a
 conversation.

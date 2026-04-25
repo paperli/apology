@@ -1,6 +1,6 @@
-"""Unit tests for the ASCII Apology Modulator."""
+"""Unit tests for Bust Apologizer."""
 
-from ascii_apology_modulator.scripts.apology_ascii import build_apology
+from bust_apologizer.scripts.apology_ascii import build_apology
 
 
 def test_no_meter_when_zero_severity():

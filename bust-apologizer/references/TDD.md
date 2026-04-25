@@ -1,7 +1,7 @@
 # Test-Driven Development (TDD) Plan
 
-This document describes the tests used to verify the correctness and safety of the
-ASCII Apology Modulator.
+This document describes the tests used to verify the correctness and safety of
+Bust Apologizer.
 
 ## Unit Tests
 

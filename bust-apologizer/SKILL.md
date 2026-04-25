@@ -1,9 +1,9 @@
 ---
-name: ascii-apology-modulator
-description: format apology responses for casual user complaints about output quality using a severity-scaled ascii bust meter, with safeguards and corrective next steps.
+name: bust-apologizer
+description: An ASCII apology meter for mistakes of escalating seriousness.
 ---
 
-# Ascii Apology Modulator
+# Bust Apologizer
 
 ## Purpose
 

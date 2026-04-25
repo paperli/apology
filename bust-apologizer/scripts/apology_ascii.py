@@ -1,4 +1,4 @@
-"""ASCII Apology Modulator implementation.
+"""Bust Apologizer reference implementation.
 
 This module provides a function to build an apology message with a visual
 indicator of how seriously the assistant's response deviated from the user's
