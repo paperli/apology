@@ -7,7 +7,7 @@ This repository contains the **ASCII Apology Modulator**, a [Claude Code](https:
 When the user complains about output quality, Claude scores the complaint from 1 to 5 and renders a one-line ASCII meter that grows with severity, paired with a concise apology and a concrete fix.
 
 ```
-(   O   )(   O   )
+[ASCII SYMBOL]
 
 Sorry -- you are right to call that out. I missed your formatting instruction.
 
@@ -125,7 +125,7 @@ ascii-apology-modulator/
 ## Troubleshooting
 
 - **Skill doesn't trigger.** Restart Claude Code — skills are loaded at session start. If it still doesn't trigger, the `description` in `SKILL.md` is the most likely culprit; it must match the kind of message the user is sending.
-- **Wrong meter characters.** The skill is strict about the bust-meter glyphs (`( . )`, `(  o  )`, `(   O   )`, `(    O    )`, `(     @     )`). If you see emoji, `:(`, or other ASCII art, the skill body is being skipped — confirm `SKILL.md` resolves at `~/.claude/skills/ascii-apology-modulator/SKILL.md`.
+- **Wrong meter characters.** The skill is strict about the meter glyphs defined in `SKILL.md`. If you see emoji, `:(`, or other ASCII art instead, the skill body is being skipped — confirm `SKILL.md` resolves at `~/.claude/skills/ascii-apology-modulator/SKILL.md`.
 - **Meter appears in serious contexts.** The safety gate should suppress it; if not, the complaint may not have read as high-stakes. Add explicit signals ("legal," "production," "customer-facing") and re-test.
 
 ## Disclaimer
