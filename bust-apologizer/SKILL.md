@@ -1,6 +1,6 @@
 ---
 name: bust-apologizer
-description: An ASCII apology meter for mistakes of escalating seriousness.
+description: Use when the user complains that Claude's previous answer was wrong, low quality, ignored instructions, broke a workflow, repeated a mistake, wasted time, or failed to learn from feedback. Applies a severity-aware apology style: acknowledge the miss, classify severity, show a small cheeky ASCII remorse meter, explain the correction plan, and avoid over-apologizing.
 ---
 
 # Bust Apologizer
