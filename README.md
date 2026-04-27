@@ -2,7 +2,7 @@
 
 Bust Apologizer is a playful Claude Skill that adjusts apology style based on how far an assistant response missed the mark. It uses a simple ASCII severity meter to make "my bad" moments more visible without making the apology too heavy.
 
-> ⚠️ **For fun only.** This is a joke / hobby project. The "ASCII bust meter" is adult-humor styling, not a serious product. If your context is professional, sensitive, or otherwise inappropriate for casual humor, **do not install this skill** — see [Disclaimer](#disclaimer) below.
+> 🤡 **For fun only.** This is a joke / hobby project. The "ASCII bust meter" is adult-humor styling, not a serious product. If your context is professional, sensitive, or otherwise inappropriate for casual humor, **do not install this skill** — see [Disclaimer](#disclaimer) below.
 
 When the user complains about output quality, Claude scores the complaint from 1 to 5 and renders a one-line ASCII meter that grows with severity, paired with a concise apology and a concrete fix.
 
@@ -116,6 +116,14 @@ bust-apologizer/
 - **Skill doesn't trigger.** Restart Claude Code — skills are loaded at session start. If it still doesn't trigger, the `description` in `SKILL.md` is the most likely culprit; it must match the kind of message the user is sending.
 - **Wrong meter characters.** The skill is strict about the bust-meter glyphs (`( . )`, `(  o  )`, `(   O   )`, `(    O    )`, `(     @     )`). If you see emoji, `:(`, or other ASCII art, the skill body is being skipped — confirm the plugin is listed under `/plugin` → **Installed** and the session has been restarted since install.
 - **Meter appears in serious contexts.** The safety gate should suppress it; if not, the complaint may not have read as high-stakes. Add explicit signals ("legal," "production," "customer-facing") and re-test.
+
+## A note on the joke
+
+This riffs on a joke I picked up as a teenager and somehow never put down: the deeper the apology, the bigger the bust grows.
+
+What this project keeps is the **shape** of the joke: a meter that scales with how bad the miss was. What it changes is who's wearing the meter — here it's *Claude* on the receiving end, apologizing for its own mistakes. The glyphs are deliberately abstract ASCII (`( . )( . )` through `(     @     )(     @     )`), closer to a wide-eyed "oof" face than to anything anatomical, and the project leans on that abstraction.
+
+Treat it as a wink at a dumb teenage memory, nothing more. If it doesn't sit right with you, please don't install — see the [Disclaimer](#disclaimer).
 
 ## Disclaimer
 
